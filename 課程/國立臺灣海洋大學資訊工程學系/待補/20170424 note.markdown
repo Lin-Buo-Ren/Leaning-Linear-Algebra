@@ -1,0 +1,43 @@
+# 20170424 note
+## 第 3 章
+* 過去向量空間的維度是有限(finite)的
+* 但是這一章中維度有可能是無限多個，例：所有 \( x \) 作為變數的多項式所組成的向量空間
+	* \( P = sp({1, x, x^2, x^3, \cdots }) \)
+
+### 第 3.2 定義<br>線性組合
+
+### 第 3.3 定義<br>\( V \) 的子集合 \(x \) 的生成(span)<br>Span of a Subset \( X\) of \(V\)
+* span set 中的向量數量可以是無窮多個
+* 我們用 \(V = sp(X) \)來標註此類（待補）
+* \(P_n\) -> 所有 \(n\) 個變數組成的多項式所組成的向量空間
+	* e.g. \(P_3 = sp({1, x, x^2, x^3}) \)
+* \(P_\infty \)
+
+#### Illustration 1
+
+#### Illustration 2<br>令 \(M_{m, n} \) 為所有 \(m\times n\)矩陣所組成的向量空間
+* 令 m=2, n=3
+	* \( \begin{align*} \begin{bmatrix} -1 & 0 & 3 \\ 4 & 1 & 5\end{bmatrix} = -1 \begin{bmatrix}1 &0 & 0\\0 & 0 & 0\end{bmatrix} + 0 \begin{bmatrix}0 & 1 & 0\\ 0 & 0 & 0 \end{bmatrix} \\ + 3 \begin{bmatrix} 0 & 0 & 1\\ 0 & 0 & 0 \end{bmatrix} + 4 \begin{bmatrix}0 & 0 & 0 \\ 1&0&0\end{bmatrix}\\+1\begin{bmatrix}0&0&0\\0&1&0\end{bmatrix} + 5\begin{bmatrix}0&0&0\\0&0&1\end{bmatrix}\end{align*} \)
+* 衍伸應用：壓縮影像
+
+### 第 3.4 章<br>子空間
+* 必須滿足加法跟純量乘法性質，產生出跟原空間相同的結果(?)
+
+### 第 3.2 定理<br>Test for a Subspace
+* \(R^2\) （平面）上的子空間為過原點(?)的直線
+* zero space = \( { 0_{向量} }\)
+
+#### Illustration 3<br>多項式組成向量空間的子空間
+* \( P_n \) 一定是 \(P\) 的子空間
+* \(P_n\) 一定是 \(P_{\infty} \) 的子空間
+* \( P_n \subset P \subset P_{\infty}\)
+
+#### Illustration 4<br>反矩陣不一定是向量空間的子空間(?)
+* 兩個可逆矩陣相加不一定是可逆矩陣
+	* e.g. \( \begin{bmatrix} 0 & 1 \\ 1 & 0 \end{bmatrix}（可逆） + \begin{bmatrix} 0 & -1 \\ -1 & 0 \end{bmatrix}（可逆） = \begin{bmatrix}0 & 0 \\ 0 & 0 \end{bmatrix}（不可逆） \)
+
+#### Illustration 5
+
+### 第 3.5 定義<br>線性依賴與線性獨立
+
+#### Illustration 7<br>所有多項式所組成的 \( P \) 線性空間中的 monomials 的子集合 \( \{1, x, x^2, \cdots, x^n, \cdots \} \) 是個線性獨立集合
